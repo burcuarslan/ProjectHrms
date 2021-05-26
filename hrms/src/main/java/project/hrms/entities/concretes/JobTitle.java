@@ -23,7 +23,7 @@ import lombok.NoArgsConstructor;
 public class JobTitle {
 	
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)  // arastir tam olarak.
+	@GeneratedValue(strategy = GenerationType.IDENTITY) 
 	@Column(name="id")
 	private int id;
 	
